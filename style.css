@@ -3,11 +3,11 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 #Header{
     color: white;
-    background: tomato;
+    background: rgb(185, 221, 84);
     height: 50px;
 }
 
@@ -31,7 +31,35 @@ a{
     display: block;
 }
 iframe{
-    width: 1000px;
+    width: 997px;
+    height: 500px;
     display: block;
+    margin: auto 100px;
+}
+#chat{
+    background: white;
     float: right;
+    text-align: center;
+    color: black;
+    margin-top:-500px ;
+    display: block;
+    width: 217px;
+    height: 650px;
+}
+.You{
+    padding: 10px;
+    float: left;
+    display: block;
+    margin-left: -70px;
+    background: transparent;
+    border-style: solid;
+    border-color: tomato;
+    width: 200px;
+    height: 620px;
+}
+.You > img{
+    display: block;
+    padding: 10px;
+    background: transparent;
+    border-radius: 50%;
 }
