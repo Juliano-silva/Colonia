@@ -1,3 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: black;
+}
+#Header{
+    color: white;
+    background: tomato;
+    height: 50px;
+}
+
+#sub-header{
+    line-height: 50px;
+}
+#sub-header > a:hover{
+    color: rgb(78, 78, 241);
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 239, 248);
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+#ico > img{
+    float: right;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    display: block;
+}
+iframe{
+    width: 1000px;
+    display: block;
+    float: right;
 }
