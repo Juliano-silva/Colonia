@@ -10,7 +10,9 @@ body{
     background: rgb(185, 221, 84);
     height: 50px;
 }
-
+p{
+    color: white;
+}
 #sub-header{
     line-height: 50px;
 }
@@ -53,13 +55,49 @@ iframe{
     margin-left: -70px;
     background: transparent;
     border-style: solid;
-    border-color: tomato;
+    border-color: rgb(255, 38, 0);
     width: 200px;
     height: 620px;
 }
 .You > img{
-    display: block;
+    display: table-cell;
     padding: 10px;
     background: transparent;
     border-radius: 50%;
+}
+.You > h1{
+    color: white;
+    font-size: 20px;
+}
+.You > h4{
+    display: table-cell;
+    float: right;
+    margin-top: -55px;
+    margin-right: 65px;
+    font-size: 20px;
+    color: white;
+}
+.You > p{
+    display: table-cell;
+    float: right;
+    margin-top: -35px;
+    margin-right: 85px;
+}
+#bola{
+    border-style: solid;
+    border-color: red;
+    width: 4px;
+    height: 4px;
+    margin: auto;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    display: table-cell;
+    float: right;
+    margin-top: -48px;
+    margin-right: 38px;
+}
+#bola > p{
+    padding: 10px;
+    margin-top: -16px;
 }
