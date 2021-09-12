@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-y: hidden;
+}
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -33,13 +36,14 @@ a{
     display: block;
 }
 iframe{
-    width: 997px;
+    width: 980px;
     height: 500px;
     display: block;
     margin: auto 100px;
 }
 #chat{
-    background: white;
+    background-image: url(img/Simon.gif);
+    background-attachment: fixed;
     float: right;
     text-align: center;
     color: black;
@@ -100,4 +104,12 @@ iframe{
 #bola > p{
     padding: 10px;
     margin-top: -16px;
+}
+#play{
+    color:rgb(63, 61, 61);
+    text-align: left;
+}
+span{
+    padding: 1px;
+    color: black;
 }
