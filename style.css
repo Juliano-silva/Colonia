@@ -4,6 +4,7 @@
 }
 html{
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -42,16 +43,40 @@ iframe{
     margin: auto 100px;
 }
 #chat{
-    background-image: url(img/Simon.gif);
+    background: rgb(0, 0, 0);
+    background-size: 500px;
     background-attachment: fixed;
     float: right;
     text-align: center;
-    color: black;
+    color: white;
     margin-top:-500px ;
     display: block;
     width: 217px;
-    height: 650px;
+    height: 575px;
 }
+#chat2{
+    font-size: 20px;
+    color: white;
+    border-color: black;
+    margin-top: 70px;
+    display: block;
+    width: 217px;
+    height: 100px;
+    margin-left: 1240px;
+}
+textarea{
+    resize: none;
+    background: rgb(78, 76, 76);
+    color: white;
+    height: 100px;
+    width: 217px;
+}
+#chat > h1{
+    background: rgb(212, 42, 42);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}  
 .You{
     padding: 10px;
     float: left;
@@ -106,10 +131,56 @@ iframe{
     margin-top: -16px;
 }
 #play{
+    color:rgb(255, 68, 105);
+    text-align: left;
+    font-size: 18px;
+}
+#play2{
+    color:rgb(73, 73, 255);
+    text-align: left;
+    font-size: 18px;
+}
+#play3{
+    color:rgb(57, 218, 57);
+    text-align: left;
+    font-size: 18px;
+}
+#play4{
+    color:rgb(207, 207, 8);
+    text-align: left;
+    font-size: 18px;
+}
+#play5{
     color:rgb(63, 61, 61);
     text-align: left;
+    font-size: 18px;
+}
+#play6{
+    color:rgb(240, 126, 240);
+    text-align: left;
+    font-size: 18px;
+}
+#play7{
+    color:rgb(207, 15, 207);
+    text-align: left;
+    font-size: 18px;
+}
+#play8{
+    color:springgreen;
+    text-align: left;
+    font-size: 18px;
+}
+#play9{
+    color:rgb(68, 219, 219);
+    text-align: left;
+    font-size: 18px;
+}
+#play10{
+    color:burlywood;
+    text-align: left;
+    font-size: 18px;
 }
 span{
     padding: 1px;
-    color: black;
+    color: white;
 }
