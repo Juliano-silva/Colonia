@@ -83,6 +83,7 @@ textarea{
     height: 30px;
     display: block;
     float: left;
+    background: rgb(128, 234, 238);
 }
 #chat > h1{
     background: red;
@@ -245,4 +246,33 @@ span{
     border-style: solid;
     background: rgb(129, 125, 125);
     border-color: rgb(129, 125, 125);
+}
+#btn{
+    float: right;
+    margin-top: -100px; 
+    background: transparent;
+    border: solid transparent;
+    margin-right: 30px;
+    width: 95px;
+    border-style: solid;
+    border-color: rebeccapurple;
+    background: rebeccapurple;
+}
+#btn > img{
+    border-radius: 50%;
+    width: 20px;
+    margin-top: -1px;
+    display: block;
+    margin-left: 10px;
+    background: white;
+}
+#btn > p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: -19px;
+}
+#btn:hover{
+    background: rgb(115, 78, 151);
+    border-style: solid;
+    border-color: rgb(115, 78, 151);
 }
