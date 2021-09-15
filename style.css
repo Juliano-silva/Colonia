@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Seagram';
+    src: url('font/Seagram\ tfb.ttf') format('opentype');
+}
 body{
-    background-color: rgb(0, 0, 0);
+    background: rgb(43, 41, 41);
 }
 #Header{
     color: white;
-    background: rgb(173, 72, 72);
-    height: 50px;
+    background: linear-gradient(black,red,red,black);
+    height: 50px; 
+    font-family: 'Seagram';
 }
 p{
     color: white;
@@ -17,7 +22,7 @@ p{
     line-height: 50px;
 }
 #sub-header > a:hover{
-    color: rgb(78, 78, 241);
+    color: rgb(2, 2, 5);
 }
 a{
     text-decoration: none;
@@ -33,13 +38,13 @@ a{
     display: block;
 }
 iframe{
-    width: 980px;
+    width: 1000px;
     height: 500px;
     display: block;
     margin: auto 100px;
 }
 #chat{
-    background: rgb(0, 0, 0);
+    background: rgb(43, 41, 41);
     background-size: 500px;
     background-attachment: fixed;
     float: right;
@@ -96,9 +101,7 @@ textarea{
     float: left;
     display: block;
     margin-left: -70px;
-    background: transparent;
-    border-style: solid;
-    border-color: rgb(255, 38, 0);
+    background: rgb(43, 41, 41);
     width: 200px;
     height: 610px;
 }
@@ -200,11 +203,12 @@ span{
 }
 #Gema1{
     border-style: solid;
-    border-color: red;
+    border-color: transparent;
     height: 170px;
     width: 980px;
     display: block;
     float: left;
+    background: rgb(43, 41, 41);
 }
 #Gema{
     width: 100px; 
@@ -212,7 +216,7 @@ span{
     margin-left: 20px;
     margin-top: 5px;
     border-style: solid;
-    border-color:  steelblue;
+    border-color:  purple;
 }
 #Gema1 > h1{
     color: white;
@@ -275,4 +279,26 @@ span{
     background: rgb(115, 78, 151);
     border-style: solid;
     border-color: rgb(115, 78, 151);
+}
+#people{
+    border-style: solid;
+    border-color: transparent;
+    width: 250px;
+    height: 50px;
+    margin-left: 720px;
+    margin-top: -50px;
+}
+#people > img{
+    background: transparent;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    height: 30px;
+    background:red;
+}
+#people > p{
+    margin-left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -40px;
+    color: rgb(128, 18, 18);
 }
