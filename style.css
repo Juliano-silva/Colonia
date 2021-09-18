@@ -58,48 +58,6 @@ iframe{
     width: 217px;
     height: 575px;
 }
-/* A parte de baixo do chat */
-#chat2{
-    font-size: 20px;
-    color: white;
-    margin-top: -70px;
-    display: block;
-    width: 217px;
-    height: 100px;
-    margin-left: 1380px;
-}
-textarea{
-    resize: none;
-    background: rgb(78, 76, 76);
-    color: white;
-    margin-top: 50px;
-    height: 20px;
-    width: 210px;
-}
-#enter{
-    background: purple;
-    color: white;
-    width: 70px;
-    margin-left: 140px;
-    display: block;
-    margin-top: 5px;
-    border-color: transparent;
-}
-#favi{
-    border-radius: 50%;
-    width: 30px;
-    margin-top: 5px;
-    height: 30px;
-    display: block;
-    float: left;
-    background: rgb(128, 234, 238);
-}
-#chat > h1{
-    background: red;
-    color: white;
-    font-size: 20px;
-    height: 50px;
-}
 #play{
     color:rgb(255, 68, 105);
     text-align: left;
@@ -154,13 +112,55 @@ span{
     padding: 1px;
     color: white;
 }
+/* A parte de baixo do chat */
+#chat2{
+    font-size: 20px;
+    color: white;
+    margin-top: -70px;
+    display: block;
+    width: 217px;
+    height: 100px;
+    margin-left: 1380px;
+}
+textarea{
+    resize: none;
+    background: rgb(78, 76, 76);
+    color: white;
+    margin-top: 50px;
+    height: 20px;
+    width: 210px;
+}
+#enter{
+    background: purple;
+    color: white;
+    width: 70px;
+    margin-left: 140px;
+    display: block;
+    margin-top: 5px;
+    font-family: 15px;
+    border-color: transparent;
+}
+#favi{
+    border-radius: 50%;
+    width: 30px;
+    margin-top: 5px;
+    height: 30px;
+    display: block;
+    float: left;
+    background: rgb(128, 234, 238);
+}
+#chat > h1{
+    background: red;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
 /* Barra de canais */
 .You{
     padding: 10px;
     float: left;
     display: block;
     margin-left: -80px;
-    background: rgb(43, 41, 41);
     width: 200px;
     height: 610px;
 }
@@ -228,6 +228,7 @@ span{
     border-style: solid;
     border-color:  purple;
 }
+
 #Gema1 > h1{
     color: white;
     float: right;
@@ -290,6 +291,11 @@ span{
     background: rgb(115, 78, 151);
     border-style: solid;
     border-color: rgb(115, 78, 151);
+}
+#btn > img:hover{
+    background: red;
+    transition: 1s;
+    transition-delay: 0.25s
 }
 #people{
     border-style: solid;
