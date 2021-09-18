@@ -9,6 +9,7 @@
 body{
     background: rgb(43, 41, 41);
 }
+/* Header */
 #Header{
     color: white;
     background: linear-gradient(black,red,red,black);
@@ -37,12 +38,14 @@ a{
     border: 2px solid transparent;
     display: block;
 }
+/* Vídeo */
 iframe{
-    width: 1000px;
+    width: 1170px;
     height: 500px;
     display: block;
     margin: auto 100px;
 }
+/* Chat */
 #chat{
     background: rgb(43, 41, 41);
     background-size: 500px;
@@ -55,6 +58,7 @@ iframe{
     width: 217px;
     height: 575px;
 }
+/* A parte de baixo do chat */
 #chat2{
     font-size: 20px;
     color: white;
@@ -62,7 +66,7 @@ iframe{
     display: block;
     width: 217px;
     height: 100px;
-    margin-left: 1220px;
+    margin-left: 1380px;
 }
 textarea{
     resize: none;
@@ -78,13 +82,13 @@ textarea{
     width: 70px;
     margin-left: 140px;
     display: block;
-    margin-top: -1px;
+    margin-top: 5px;
     border-color: transparent;
 }
 #favi{
     border-radius: 50%;
     width: 30px;
-    margin-top: -1px;
+    margin-top: 5px;
     height: 30px;
     display: block;
     float: left;
@@ -95,57 +99,6 @@ textarea{
     color: white;
     font-size: 20px;
     height: 50px;
-}  
-.You{
-    padding: 10px;
-    float: left;
-    display: block;
-    margin-left: -70px;
-    background: rgb(43, 41, 41);
-    width: 200px;
-    height: 610px;
-}
-.You > img{
-    display: table-cell;
-    padding: 5px;
-    background: transparent;
-    border-radius: 50%;
-}
-.You > h1{
-    color: white;
-    font-size: 20px;
-}
-.You > h4{
-    display: table-cell;
-    float: right;
-    margin-top: -55px;
-    margin-right: 65px;
-    font-size: 20px;
-    color: white;
-}
-.You > p{
-    display: table-cell;
-    float: right;
-    margin-top: -35px;
-    margin-right: 85px;
-}
-#bola{
-    border-style: solid;
-    border-color: red;
-    width: 4px;
-    height: 4px;
-    margin: auto;
-    border-radius: 50%;
-    background: red;
-    color: white;
-    display: table-cell;
-    float: right;
-    margin-top: -48px;
-    margin-right: 38px;
-}
-#bola > p{
-    padding: 10px;
-    margin-top: -16px;
 }
 #play{
     color:rgb(255, 68, 105);
@@ -201,11 +154,68 @@ span{
     padding: 1px;
     color: white;
 }
+/* Barra de canais */
+.You{
+    padding: 10px;
+    float: left;
+    display: block;
+    margin-left: -80px;
+    background: rgb(43, 41, 41);
+    width: 200px;
+    height: 610px;
+}
+#Cimg{
+    display: table-cell;
+    padding: 5px;
+    background: transparent;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+.You  > h1{
+    color: white;
+    font-size: 20px;
+}
+#Ch4{
+    display: table-cell;
+    float: right;
+    margin-top: -55px;
+    margin-right: 65px;
+    font-size: 17px;
+    color: white;
+}
+#Cp{
+    display: table-cell;
+    float: right;
+    font-size: 17px;
+    margin-top: -35px;
+    margin-right: 85px;
+}
+#bola{
+    border-style: solid;
+    border-color: red;
+    width: 4px;
+    height: 4px;
+    margin: auto;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    display: table-cell;
+    float: right;
+    margin-top: -48px;
+    margin-right: 55px; 
+}
+#Pbola{
+    padding: 10px;
+    margin-top: -18px;
+    font-size: 20px;
+    margin-left: 3px;
+}
+/* Parte de baixo do vídeo */
 #Gema1{
     border-style: solid;
     border-color: transparent;
     height: 170px;
-    width: 980px;
+    width: 1000px;
     display: block;
     float: left;
     background: rgb(43, 41, 41);
@@ -222,17 +232,18 @@ span{
     color: white;
     float: right;
     width: 850px;
+    margin-top: -120px;
 }
 #Gema1 > p{
     color: white;
     float: right;
     width: 850px;
-    margin-top: -70px;
+    margin-top: -85px;
 }
 .sub-título{
     float: right;
     line-height: 20px;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-right: 260px;
 }
 .sub-título > a{
@@ -301,4 +312,15 @@ span{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -40px;
     color: rgb(128, 18, 18);
+}
+#live{
+    color: rgb(237, 238, 157);
+    margin-left: 32px;
+    border-style: solid;
+    background: rebeccapurple;
+    margin-top: -10px;
+    border-color: rebeccapurple;
+    width: 80px;
+    border-radius: 50px 50px ;
+    text-align: center;
 }

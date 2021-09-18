@@ -20,7 +20,7 @@ function load(){
   const newH18 =  "<p id='play2'>MacabreBuzz"+ "<span>: carai q lindo</span>";
   const newH19 =  "<p id='play4'>Xaesqueak"+ "<span>: acabado?</span>";
   const newH20 =  "<p id='play8'>VanSable"+ "<span>: ae</span>";
-  const newH21 =  "<p id='play10'>DasDeafening"+ "<span>: 💩💩💩</span>";
+  const newH21 =  "<p id='play10'>DasDeafening"+ "<span>:Pop💩</span>";
   const newH22 =  "<p id='play10'>DasDeafening"+ "<span>: 💩💩💩</span>";
   chat.insertAdjacentHTML("beforeend",newH1)
   setTimeout(function(){
