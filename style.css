@@ -7,7 +7,14 @@
     src: url('font/Seagram\ tfb.ttf') format('opentype');
 }
 body{
-    background: rgb(43, 41, 41);
+  height: 100%;
+  margin: 0;
+}
+.bg{
+    background-image: url(img/Espaço.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /* Header */
 #Header{
@@ -47,16 +54,13 @@ iframe{
 }
 /* Chat */
 #chat{
-    background: rgb(43, 41, 41);
-    background-size: 500px;
-    background-attachment: fixed;
     float: right;
     text-align: center;
     color: white;
     margin-top:-500px ;
-    display: block;
+    display: relative;
     width: 217px;
-    height: 575px;
+    height: 590px;
 }
 #play{
     color:rgb(255, 68, 105);
@@ -218,7 +222,6 @@ textarea{
     width: 1000px;
     display: block;
     float: left;
-    background: rgb(43, 41, 41);
 }
 #Gema{
     width: 100px; 
@@ -228,7 +231,6 @@ textarea{
     border-style: solid;
     border-color:  purple;
 }
-
 #Gema1 > h1{
     color: white;
     float: right;
@@ -320,13 +322,17 @@ textarea{
     color: rgb(128, 18, 18);
 }
 #live{
-    color: rgb(237, 238, 157);
-    margin-left: 32px;
-    border-style: solid;
-    background: rebeccapurple;
-    margin-top: -10px;
-    border-color: rebeccapurple;
-    width: 80px;
-    border-radius: 50px 50px ;
-    text-align: center;
+    position: relative;
+}
+#live > h1{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    font-size: 20px;
+    background: red;
+    color: white;
+    border: 5px solid red;
+    margin-bottom: -5px;
+    margin-left: 25px;
+    opacity: 1;
 }
