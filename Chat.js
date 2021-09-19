@@ -3,7 +3,7 @@ const click = document.getElementById("btn");
 function Clicar(){
   click.style.fontSize='15px'
   click.style.color="white"
-  click.innerHTML="Seguindo"
+  click.innerHTML="✔ Seguindo"
 }
 function load(){
   const newH1 =  "<p id='play'>Numberlessama"+ "<span>:kkkkkkk</span>";

@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-x: hidden;
+}
 @font-face {
     font-family: 'Seagram';
     src: url('font/Seagram\ tfb.ttf') format('opentype');
@@ -15,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 800px;
 }
 /* Header */
 #Header{
@@ -47,7 +51,7 @@ a{
 }
 /* Vídeo */
 iframe{
-    width: 1170px;
+    width: 1120px;
     height: 500px;
     display: block;
     margin: auto 100px;
@@ -214,6 +218,21 @@ textarea{
     font-size: 20px;
     margin-left: 3px;
 }
+#ocultar{
+    background: red;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    margin-left: 155px;
+    cursor: pointer;
+}
+#ocultar:hover{
+    background: rgb(115, 78, 151);
+    color: white;
+    border-color: rgb(115, 78, 151);
+    transition-delay: 1s;
+    transition-duration: 1s ;
+}
 /* Parte de baixo do vídeo */
 #Gema1{
     border-style: solid;
@@ -273,21 +292,16 @@ textarea{
     margin-right: 30px;
     width: 95px;
     border-style: solid;
+    height: 20px;
     border-color: rebeccapurple;
     background: rebeccapurple;
-}
-#btn > img{
-    border-radius: 50%;
-    width: 20px;
-    margin-top: -1px;
-    display: block;
-    margin-left: 10px;
-    background: white;
+    border-radius:5%;
 }
 #btn > p{
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 15px;
-    margin-top: -19px;
+    margin-top: -1px;
+    text-align: center;
 }
 #btn:hover{
     background: rgb(115, 78, 151);
