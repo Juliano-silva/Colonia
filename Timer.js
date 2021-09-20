@@ -6,7 +6,7 @@ var ss =0;
 var tempo = 1000;
 var cron;
 
-function load(){
+function Com(){
     cron = setInterval(() => {timer();}, tempo);
 }
 function timer(){

@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colonia</title>
+    <script src="https://kit.fontawesome.com/1e592b5726.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="ico/King.ico" type="image/x-icon">
+    <link rel="stylesheet" href="searchBar.css">
 </head>
 <body onload="load()" class="bg">
     <!-- Esse é o cabeçalho -->
@@ -17,8 +19,14 @@
             <a href="#">Procurar</a>
             <a href="#">Esports</a>
             <a href="#">Música</a>
-            <a id="ico" href="#"><img src="ico/Beerus.ico" alt="">
+            <a id="ico" href="#"><img src="ico/Beerus.ico" alt="Beerus">
+            <a id="ico" href="#"><h1>Comprar cherry</h1></a>
+            <a href="#" id="ico"><img src="ico/Cherry.ico" alt="Cherry"></a>
             </a>
+            <form action="#" method="post">
+                <input type="text" name="search" id="search" placeholder="Procurar conteúdo ao vivo" required>
+                <button type="submit"></button>
+            </form>
         </nav>
     </div>
     <!-- Barra de canais -->
@@ -37,7 +45,7 @@
         </a>
         <a href="https://www.twitch.tv/flango_yt" target="_blank">  <img id="Cimg" src="ico/Frango.ico"> <h4 id="Ch4" style="margin-right:60px;">Flango_YT</h4> <p style="margin-right: 40px;" id="Cp">5 novos vídeos</p> <nav id="bola" style="background: transparent; border-color: transparent;"><p id="Pbola">offline</p></nav></a>
         <br>
-        <h1 style="font-size: 15px;">CANAIS RECOMENDADOS</h1>
+        <h1 style="font-size: 14px;">CANAIS RECOMENDADOS</h1>
         <br>
         <a href="https://www.twitch.tv/calango" target="_blank"> <img src="ico/Calango.ico" id="Cimg" > <h4 id="Ch4" style="margin-right: 85px;">Calango</h4> <p id="Cp" style="margin-right: 90px;">Fortnite</p> <nav id="bola"><p id="Pbola">2.000</p></nav></a>
 
@@ -52,7 +60,7 @@
         <textarea  placeholder=" Adicionar amigos"  style="width: 200px; margin-top: -30px; " id="textarea" cols="30" rows="10"></textarea>
     </div>
 <!-- Aqui tá o vídeo -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vA7DyyWpvgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vA7DyyWpvgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="Com()">
     </iframe>
     <!-- Parte de baixo -->
     <div id="Gema1">

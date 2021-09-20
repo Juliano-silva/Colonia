@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 1em;
+}
+
+form {
+    margin-left:600px;
+    margin-top: -60px;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    width: 10px;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+    width: 550px;
+    
+}
+
+/* form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    height: 200px;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: blueviolet;
+} */

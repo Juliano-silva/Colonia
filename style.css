@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
 }
+/* Barra */
 html{
     overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    background-color:rgb(0, 0, 0);
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 @font-face {
     font-family: 'Seagram';
     src: url('font/Seagram\ tfb.ttf') format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
 body{
   height: 100%;
   margin: 0;
@@ -18,14 +26,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 890px;
 }
 /* Header */
 #Header{
     color: white;
-    background: linear-gradient(black,red,red,black);
+    background: transparent;
     height: 50px; 
-    font-family: 'Seagram';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 p{
     color: white;
@@ -49,6 +57,15 @@ a{
     border: 2px solid transparent;
     display: block;
 }
+#ico > h1{
+    float: right;
+    color:white;
+    display: flex;
+    font-size: 20px;
+    margin-right:10px;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Vídeo */
 iframe{
     width: 1120px;
@@ -63,7 +80,7 @@ iframe{
     color: white;
     margin-top:-500px ;
     display: relative;
-    width: 217px;
+    width: 260px;
     height: 590px;
 }
 #play{
@@ -124,25 +141,26 @@ span{
 #chat2{
     font-size: 20px;
     color: white;
-    margin-top: -70px;
+    margin-top: -60px;
     display: block;
     width: 217px;
     height: 100px;
-    margin-left: 1380px;
+    margin-left: 1350px;
 }
 textarea{
     resize: none;
     background: rgb(78, 76, 76);
     color: white;
-    margin-top: 50px;
+    margin-top:60px;
     height: 20px;
-    width: 210px;
+    width: 250px;
+    margin-left: -17px;
 }
 #enter{
     background: purple;
     color: white;
     width: 70px;
-    margin-left: 140px;
+    margin-left: 165px;
     display: block;
     margin-top: 5px;
     font-family: 15px;
@@ -155,10 +173,11 @@ textarea{
     height: 30px;
     display: block;
     float: left;
+    margin-left: -15px;
     background: rgb(128, 234, 238);
 }
 #chat > h1{
-    background: red;
+    background: rgb(255, 0, 0);
     color: white;
     font-size: 20px;
     height: 50px;
@@ -181,7 +200,8 @@ textarea{
 }
 .You  > h1{
     color: white;
-    font-size: 20px;
+    text-align: center;
+    font-size: 15px;
 }
 #Ch4{
     display: table-cell;
