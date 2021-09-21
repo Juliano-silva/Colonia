@@ -188,7 +188,7 @@ textarea{
     float: left;
     display: block;
     margin-left: -80px;
-    width: 200px;
+    width: 210px;
     height: 610px;
 }
 #Cimg{
@@ -206,7 +206,7 @@ textarea{
 #Ch4{
     display: table-cell;
     float: right;
-    margin-top: -55px;
+    margin-top: -50px;
     margin-right: 95px;
     font-size: 15px;
     color: white;
@@ -215,7 +215,7 @@ textarea{
     display: table-cell;
     float: right;
     font-size: 15px;
-    margin-top: -35px;
+    margin-top: -30px;
     margin-right: 85px;
 }
 #bola{
@@ -252,6 +252,11 @@ textarea{
     border-color: rgb(115, 78, 151);
     transition-delay: 1s;
     transition-duration: 1s ;
+}
+#textarea2{
+    width: 210px; 
+    margin-top: -30px;
+    margin-left: -5px;
 }
 /* Parte de baixo do vídeo */
 #Gema1{
