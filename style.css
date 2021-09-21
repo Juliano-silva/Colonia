@@ -7,7 +7,8 @@ html{
     overflow-x: hidden;
 }
 ::-webkit-scrollbar{
-    background-color:rgb(0, 0, 0);
+    background-color:black;
+    border-color: black;
     width: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -42,7 +43,7 @@ p{
     line-height: 50px;
 }
 #sub-header > a:hover{
-    color: rgb(2, 2, 5);
+    color: rgb(238, 241, 193);
 }
 a{
     text-decoration: none;
@@ -78,6 +79,7 @@ iframe{
     float: right;
     text-align: center;
     color: white;
+    background: rebeccapurple;
     margin-top:-500px ;
     display: relative;
     width: 260px;
@@ -136,6 +138,9 @@ iframe{
 span{
     padding: 1px;
     color: white;
+}
+#ocultar1,#ocultar2,#ocultar3,#ocultar4,#ocultar5,#ocultar6,#ocultar7,#ocultar8{
+    opacity: 0;
 }
 /* A parte de baixo do chat */
 #chat2{
@@ -378,9 +383,75 @@ textarea{
 /* Max-width */
 @media (min-width:1900px) and (max-width: 2300px) {
     iframe{
-        width: 1440px;
+        width: 1430px;
+        height: 700px;
     }
     .bg{
         height: 1000px;
+    }
+    #chat{
+        height: 834px;
+        margin-top: -700px;
+    }
+    #chat2{
+        margin-left: 1680px;
+        margin-top: -20px;
+    }
+    textarea{
+        margin-top:  35px;
+        width: 260px;
+        margin-left: -25px;
+    }
+    #Gema1{
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+    #ocultar1{
+        opacity: 1;
+        color:burlywood;
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar2{
+        opacity: 1;
+        color:rgb(187, 112, 14);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar3{
+        opacity: 1;
+        color:rgb(144, 139, 196);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar4{
+        opacity: 1;
+        color:rgb(129, 33, 33);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar5{
+        opacity: 1;
+        color:rgb(182, 127, 173);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar6{
+        opacity: 1;
+        color:rgb(48, 214, 33);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar7{
+        opacity: 1;
+        color:rgb(65, 180, 94);
+        text-align: left;
+        font-size: 18px;
+    }
+    #ocultar8{
+        opacity: 1;
+        color:rgb(22, 119, 230);
+        text-align: left;
+        font-size: 18px;
     }
 }

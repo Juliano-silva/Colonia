@@ -28,6 +28,14 @@ function load(){
   const newH20 =  "<p id='play8'>VanSable"+ "<span>: ae</span>";
   const newH21 =  "<p id='play10'>DasDeafening"+ "<span>:Pop💩</span>";
   const newH22 =  "<p id='play10'>DasDeafening"+ "<span>: 💩💩💩</span>";
+  const newH23 =  "<p id='ocultar1'>TheSableAcidic"+ "<span>:ATA VITOR</span>";
+  const newH24 =  "<p id='ocultar2'>Teddysan"+ "<span>:tá frio?</span>";
+  const newH25 =  "<p id='ocultar3'>Ughwyu"+ "<span>:sempre aposto tudo que tenho</span>";
+  const newH26 =  "<p id='ocultar4'>DasElfin"+ "<span>:aqui ta fresquinto</span>";
+  const newH27 =  "<p id='ocultar5'>Autumnoff"+ "<span>:one punch</span>";
+  const newH28 =  "<p id='ocultar6'>Neilila"+ "<span>:KEKW</span>";
+  const newH29 =  "<p id='ocultar7'>Ellaoff"+ "<span>:OMG</span>";
+  const newH30 =  "<p id='ocultar8'>Nevadaoff"+ "<span>:OMEGALUL</span>";
   chat.insertAdjacentHTML("beforeend",newH1)
   setTimeout(function(){
     chat.insertAdjacentHTML("beforeend",newH2)
@@ -80,5 +88,19 @@ function load(){
     chat.insertAdjacentHTML("beforeend",newH21)
     chat.insertAdjacentHTML("beforeend",newH22)
   },5000)
+  setTimeout(function(){
+    chat.insertAdjacentHTML("beforeend",newH23)
+  },5100)
+  setTimeout(function(){
+    chat.insertAdjacentHTML("beforeend",newH24)
+  },5300)
+  setTimeout(function(){
+    chat.insertAdjacentHTML("beforeend",newH25)
+    chat.insertAdjacentHTML("beforeend",newH26)
+    chat.insertAdjacentHTML("beforeend",newH27)
+    chat.insertAdjacentHTML("beforeend",newH28)
+    chat.insertAdjacentHTML("beforeend",newH29)
+    chat.insertAdjacentHTML("beforeend",newH30)
+  },5400)
 }
 addEventListener("loadstart",load);
