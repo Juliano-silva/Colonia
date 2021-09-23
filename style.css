@@ -73,8 +73,24 @@ iframe{
     height: 500px;
     display: block;
     margin: auto 100px;
+    margin-top: -200px;
 }
 /* Chat */
+#chat > #ocultar20{
+    display: inline;
+    background: transparent;
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50%;
+    margin-left: -210px;
+    cursor: pointer;
+    margin-top: -15px;
+}
+#ocultar20 > img{
+    width: 40px;
+    margin-top: 15px;
+}
 #chat{
     float: right;
     text-align: center;
@@ -84,6 +100,13 @@ iframe{
     display: relative;
     width: 260px;
     height: 590px;
+}
+#chat > h1{
+    background: rgb(255, 0, 0);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    margin-top: -45px;
 }
 #play{
     color:rgb(255, 68, 105);
@@ -181,20 +204,14 @@ textarea{
     margin-left: -15px;
     background: rgb(128, 234, 238);
 }
-#chat > h1{
-    background: rgb(255, 0, 0);
-    color: white;
-    font-size: 20px;
-    height: 50px;
-}
 /* Barra de canais */
-.You{
+#You{
     padding: 10px;
     float: left;
     display: block;
     margin-left: -80px;
     width: 210px;
-    height: 610px;
+    height: 510px;
 }
 #Cimg{
     display: table-cell;
@@ -206,10 +223,17 @@ textarea{
 #OCimg,#OCh4,#OCp,#Obola{
     display: none;
 }
-.You  > h1{
+#You  > h1{
     color: white;
     text-align: center;
     font-size: 15px;
+    margin-top: -20px;
+}
+#CS{
+    margin-right: 50px;
+}
+input:checked + #ocultar {
+    background: rebeccapurple;
 }
 #Ch4{
     display: table-cell;
@@ -247,19 +271,17 @@ textarea{
     margin-left: 3px;
 }
 #ocultar{
-    background: red;
+    background: transparent;
     color: white;
     border-style: solid;
-    border-color: red;
-    margin-left: 155px;
+    border-color: transparent;
+    border-radius: 50%;
+    margin-left: -50px;
     cursor: pointer;
+    margin-top: 15px;
 }
-#ocultar:hover{
-    background: rgb(115, 78, 151);
-    color: white;
-    border-color: rgb(115, 78, 151);
-    transition-delay: 1s;
-    transition-duration: 1s ;
+#ocultar > img{
+    width: 40px;
 }
 #textarea2{
     width: 210px; 
@@ -386,6 +408,20 @@ textarea{
     margin-left: 25px;
     opacity: 1;
     border-radius: 25px;
+}
+/* Parte ainda mais de baixo */
+.Baixo{
+    border-style: solid;
+    border-color: transparent;
+    background-image:url(img/espaco-sideral-viktorovpro-shutterstock\ \(1\).jpg) ;
+    color: white;
+    margin-top: 130px;
+    margin-left: 230px;
+    width: 1090px;
+    height: 100px;
+}
+.Baixo > h1{
+    position: absolute;
 }
 /* Max-width */
 @media (min-width:1900px) and (max-width: 2300px) {

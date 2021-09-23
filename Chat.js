@@ -96,11 +96,15 @@ function load(){
   },5300)
   setTimeout(function(){
     chat.insertAdjacentHTML("beforeend",newH25)
+  },5400)
+  setTimeout(function(){
     chat.insertAdjacentHTML("beforeend",newH26)
     chat.insertAdjacentHTML("beforeend",newH27)
     chat.insertAdjacentHTML("beforeend",newH28)
+  },6000)
+  setTimeout(function(){
     chat.insertAdjacentHTML("beforeend",newH29)
     chat.insertAdjacentHTML("beforeend",newH30)
-  },5400)
+  },6500)
 }
 addEventListener("loadstart",load);

@@ -15,8 +15,8 @@
     <div id="Header">
         <nav id="sub-header">
             <a href="#" id="ico" style="float: left; margin-top: -10px;"><img src="ico/biohazard.ico" alt=""></a>
-            <a href="#"> Seguindo</a>
-            <a href="#">Procurar</a>
+            <a href="#">Home</a>
+            <a href="#">favoritos</a>
             <a href="#">Esports</a>
             <a href="#">Música</a>
             <a href="#" >Portfolio</a>
@@ -31,11 +31,11 @@
         </nav>
     </div>
     <!-- Barra de canais -->
-    <div class="You">
-        <button id="ocultar">Ocultar</button>
+    <button type="checkbox" id="ocultar" onclick="ocult()"><img src="ico/Menu.ico"></button>
+    <div id="You">
         <br>
         <br>
-        <h1>CANAIS SECUIDOS</h1>
+        <h1 id="CS">CANAIS SECUIDOS</h1>
         <br>
         <a href="https://www.twitch.tv/vitongemaplys" target="_blank">
             <img id="Cimg" src="ico/Gemaplys.ico"> <h4 id="Ch4" style="margin-right: 76px;">Gemaplys</h4> <p id="Cp" style="margin-right: 70px;">castlevania </p> <nav id="bola"><p id="Pbola">130.00</p></nav>
@@ -93,13 +93,19 @@
     </nav>
     </div>
     <!-- Chat -->
-    <nav id="chat">  <h1>CHAT DA TRANSMISSÂO</h1>
+    <nav id="chat">  <button type="checkbox" id="ocultar20" onclick="ocult()"><img src="ico/Menu.ico"></button>  <h1>CHAT DA TRANSMISSÂO</h1>
     </nav>
     <nav id="chat2">
     <textarea placeholder="Envie sua mensagem" id="textarea" maxlength="28" cols="30" rows="2"></textarea>
     <img src="ico/Gurren.ico" id="favi">
     <button id="enter">Chat</button>
     </nav>
+    <!-- Parte de mais de baixo -->
+    <div class="Baixo">
+        <h1>Sobre Gemaplys</h1>
+        <p>177,5 mil seguidores</p>
+        <h5>apertei a mão do lula, tenho terceiro lugar do recorde mundial do jogo do shrek de gba, tenho canal gemaplys, apareci em um vídeo do mr beast e lanço músicas</h5>
+    </div>
 </body>
 <script src="Chat.js"></script>
 <script src="Timer.js"></script>
