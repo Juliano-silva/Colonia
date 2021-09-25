@@ -11,7 +11,7 @@ header {
 }
 
 form {
-    margin-left:730px;
+    margin-left:680px;
     margin-top: -60px;
     border-radius: 0.3em;
     padding: 0.5em;
@@ -28,7 +28,7 @@ form input, form button {
 }
 @media (min-width:1900px) and (max-width: 2300px){
     form input,form button{
-        width: 900px;
+        width: 950px;
     }
 }
 /* form button {
