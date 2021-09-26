@@ -5,6 +5,7 @@
 /* Barra */
 html{
     overflow-x: hidden;
+    height: 2000px;
 }
 ::-webkit-scrollbar{
     background-color:black;
@@ -27,7 +28,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 950px;
+
 }
 /* Header */
 #Header{
@@ -428,6 +429,35 @@ input:checked + #ocultar {
     margin-right: 200px;
     margin-top: -20px;
     border: solid transparent;
+}
+#maisbaixo{
+    color: white;
+    border: solid red;
+    width: 1500px auto;
+}
+#Dis,#Do,#Cy,#Sm,#Pod,#CL{
+    width: 500px;
+    height: 250px;
+}
+#Reg{
+    margin-left: 600px;
+    margin-top: -270px; 
+    width: 100px;
+    border: red solid;
+}
+#RegP{
+    color: white;
+    border: red solid;
+    width: 300px;
+    margin-left: 600px;
+}
+#Do{
+    margin-left: 1000px;
+    margin-bottom: 600px;
+    margin-top: -570px;
+}
+#Cy{
+    margin-left: 50px;
 }
 /* Max-width */
 @media (min-width:1900px) and (max-width: 2300px) {
