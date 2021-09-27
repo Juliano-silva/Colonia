@@ -5,7 +5,7 @@
 /* Barra */
 html{
     overflow-x: hidden;
-    height: 2500px;
+    height: 1700px;
 }
 ::-webkit-scrollbar{
     background-color:black;
@@ -432,31 +432,42 @@ input:checked + #ocultar {
 }
 #maisbaixo{
     color: white;
-    border: solid red;
+    border: solid transparent;
     width: 1500px auto;
 }
 #Dis,#Do,#Cy,#Sm,#Pod,#CL{
-    width: 500px;
-    height: 250px;
+    width: 350px;
+    height: 150px;
 }
 #RegP{
     color: white;
     border: transparent solid;
-    background-image:url(img/Espaço\ gravidade\ .jpg) ;
+    background-image:url(img/Espaço\ gravidade\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 500px;
-    margin-left: 600px;
-    margin-top: -200px;
+    margin-left: 450px;
+    margin-top: -170px;
 }
 #RegP > span{
     font-size: 50px;
     margin-left: 50px;
 }
+#Dis{
+    margin-left: 25px;
+}
 #Cy{
     margin-left: 50px;
 }
-#CL{
+#Pod{
     margin-left: 1000px;
-    margin-top: -200px;
+    width: 435px;
+    height: 150px;
+}
+#CL{
+    margin-left: 1480px;
+    margin-top: -450px;
 }
 /* Max-width */
 @media (min-width:1900px) and (max-width: 2300px) {
