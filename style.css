@@ -5,7 +5,7 @@
 /* Barra */
 html{
     overflow-x: hidden;
-    height: 2000px;
+    height: 2500px;
 }
 ::-webkit-scrollbar{
     background-color:black;
@@ -439,25 +439,24 @@ input:checked + #ocultar {
     width: 500px;
     height: 250px;
 }
-#Reg{
-    margin-left: 600px;
-    margin-top: -270px; 
-    width: 100px;
-    border: red solid;
-}
 #RegP{
     color: white;
-    border: red solid;
-    width: 300px;
+    border: transparent solid;
+    background-image:url(img/Espaço\ gravidade\ .jpg) ;
+    width: 500px;
     margin-left: 600px;
+    margin-top: -200px;
 }
-#Do{
-    margin-left: 1000px;
-    margin-bottom: 600px;
-    margin-top: -570px;
+#RegP > span{
+    font-size: 50px;
+    margin-left: 50px;
 }
 #Cy{
     margin-left: 50px;
+}
+#CL{
+    margin-left: 1000px;
+    margin-top: -200px;
 }
 /* Max-width */
 @media (min-width:1900px) and (max-width: 2300px) {
