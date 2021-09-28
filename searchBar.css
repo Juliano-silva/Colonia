@@ -26,6 +26,9 @@ form input, form button {
     width: 590px;
     
 }
+form button{
+    background-color: transparent;
+}
 @media (min-width:1900px) and (max-width: 2300px){
     form input,form button{
         width: 950px;
