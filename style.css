@@ -95,10 +95,7 @@ iframe{
     cursor: pointer;
     margin-top: -5px;
 }
-#ocultar > img{
-    width: 40px;
-    margin-top: -5px;
-}
+
 #ocultarC{
     display: hidden;
 }
@@ -245,7 +242,7 @@ textarea{
     margin-top: -20px;
 }
 #CS{
-    margin-right: 50px;
+    margin-right: 5px;
 }
 input:checked + #ocultar {
     background: rebeccapurple;
@@ -325,6 +322,7 @@ input:checked + #ocultar {
     float: right;
     width: 850px;
     margin-top: -85px;
+    width: 850px;
 }
 .sub-título{
     float: right;
@@ -420,6 +418,9 @@ input:checked + #ocultar {
     margin-bottom: -5px;
     margin-left: 25px;
     opacity: 1;
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 45px;
     border-radius: 25px;
 }
 /* Parte ainda mais de baixo */
@@ -603,7 +604,7 @@ input:checked + #ocultar {
         margin-bottom: 1px;
         margin-left: -7px;
     }
-    #Gema,#live > h1{
+    #Gema{
         width: 150px;
         margin-top: -40px;
         margin-left: 45px;

@@ -6,45 +6,45 @@ const oc = document.getElementById("ocultarC")
 const txt = document.getElementById("textarea");
 const fav = document.getElementById("favi");
 const en = document.getElementById("enter");
-var i=0;
-function ocult(){
-   if(!i){
-       you.style.display="flex";
-       you.style.marginTop="-1000px";
-       iframe.style.width= "1575px";
-       iframe.style.display="block";
-       iframe.style.margin="auto"
-       iframe.style.marginRight="350px"
-       iframe.style.marginTop="-300px"
-       i=1;
-    }
-    else{
-        you.style.display="inline"
-        you.style.marginTop="-5px";
-        iframe.style.width= "1430px";
-       iframe.style.display="block";
-       iframe.style.margin="auto"
-       iframe.style.marginRight="550px"
-       iframe.style.marginTop="-300px"
-        i=0;
-    }
-}
+const Gema = document.getElementById("Gema");
+const live = document.getElementById("live")
+const plys = document.getElementById("plys")
+const pc = document.getElementById("pc")
+const tr = document.getElementById("tr")
+const sub = document.getElementById("sub")
 var i=0;
 function ocultC(){
     if(!i){
         ch.style.display="flex";
         ch.style.marginTop="-1000px";
+        you.style.display="flex";
+        you.style.marginTop="-1000px";
         txt.style.display="none"
         fav.style.display="none"
         en.style.display="none"
         oc.style.marginLeft="215px"
         oc.style.marginTop="-190px"
-        iframe.style.width= "1650px";
+        iframe.style.width= "1870px";
        iframe.style.display="block";
-       iframe.style.margin="auto"
-       iframe.style.marginRight="350px"
-       iframe.style.marginTop="-100px"
-        i=1
+       iframe.style.margin="auto";
+       iframe.style.marginLeft="-1px";
+       iframe.style.marginTop="-100px";
+       Gema.style.width="200px";
+       Gema.style.marginLeft="-150px";
+       live.style.marginLeft="-175px";
+       live.style.marginTop="-5px"
+       plys.style.fontSize="90px"
+       plys.style.marginRight="100px"
+       plys.style.marginTop="-230px"
+       pc.style.fontSize="30px";
+       pc.style.marginTop="-120px";
+       pc.style.marginRight="-270px";
+       pc.style.width="1200px";
+       tr.style.marginRight="80px";
+       tr.style.fontSize="25px";
+       sub.style.marginRight="50px"
+       sub.style.marginTop="-40px"
+       i=1
     }
     else{
         ch.style.display="inline";
@@ -59,6 +59,11 @@ function ocultC(){
        iframe.style.margin="auto"
        iframe.style.marginRight="265px"
        iframe.style.marginTop="-100px"
+       you.style.display="inline"
+       you.style.marginTop="-5px";
+       Gema.style.width="150px";
+       Gema.style.marginLeft="45px";
+       live.style.marginLeft=" 1px";
         i=0
     }
 }
