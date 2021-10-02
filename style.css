@@ -5,7 +5,7 @@
 /* Barra */
 html{
     overflow-x: hidden;
-    height: 1700px;
+    height: 1740px;
 }
 ::-webkit-scrollbar{
     background-color:black;
@@ -201,14 +201,14 @@ textarea{
     width: 70px;
     margin-left: 165px;
     display: block;
-    margin-top: 5px;
+    margin-top: 1em;
     font-family: 15px;
     border-color: transparent;
 }
 #favi{
     border-radius: 50%;
     width: 30px;
-    margin-top: 5px;
+    margin-top: -22px;
     height: 30px;
     display: block;
     float: left;
@@ -301,6 +301,7 @@ input:checked + #ocultar {
     width: 1000px;
     display: block;
     float: left;
+    
 }
 #Gema{
     width: 100px; 
@@ -315,7 +316,9 @@ input:checked + #ocultar {
     color: white;
     float: right;
     width: 850px;
+    font-style: italic;
     margin-top: -120px;
+    font-size: 50px;
 }
 #Gema1 > p{
     color: white;
@@ -353,9 +356,9 @@ input:checked + #ocultar {
     float: right;
     background: transparent;
     border: solid transparent;
-    width: 155px;
+    width: 185px;
     border-style: solid;
-    height: 20px;
+    height: 30px;
     border-color: transparent;
     background-image: url(img/Espaço\ gravidade\ .jpg);
     background-repeat: no-repeat;
@@ -424,14 +427,14 @@ input:checked + #ocultar {
     border-radius: 25px;
 }
 /* Parte ainda mais de baixo */
-.Baixo{
+#Baixo{
     border-style: solid;
     border-color: transparent;
     background-image:url(img/Espaço\ gravidade\ .jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-color: transparent;
+    border: 1px solid transparent;
     box-shadow: 0 0 25px rgb(130, 4, 255);
     color: white;
     margin-top: 130px;
@@ -439,7 +442,7 @@ input:checked + #ocultar {
     width: 1420px;
     height: 90px;
 }
-.Baixo > h1{
+#Baixo > h1{
     float: left;
     margin-right: 200px;
     margin-top: -20px;

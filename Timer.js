@@ -38,6 +38,6 @@ function timer1(){
             hh++;
         }
     }
-    var format2 = (m2 <50? '13' + m2 : m2) + ',' + (s1 < 10 ? '0' + s1: s1);
-    document.getElementById('milhões').innerText= format2;
+    var format2 = (m2 <50? '13' + m2 : m2) + ',' + (s1 < 10 ? '0' + s1: s1) + ' milhões';
+    document.getElementById('milhões').innerText= format2 ;
 }
